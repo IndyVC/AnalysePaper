@@ -14,8 +14,12 @@
 % dat je in ``biblatex''-modus opslaat: File > Switch to BibLaTeX mode.
 
 \documentclass{hogent-article}
-
 \usepackage{lipsum} % Voor vultekst
+\usepackage[backend=biber]{biblatex}
+\usepackage{graphicx}
+\usepackage{bmpsize}
+\addbibresource{bibliografie.bib}
+
 
 %------------------------------------------------------------------------------
 % Metadata over het artikel
@@ -42,16 +46,13 @@
 % Contactinfo: Geef hier de contactgegevens van elke auteur van het artikel (en
 % indien van toepassing ook van de co-promotor).
 \affiliation{
-	\textsuperscript{1}\href{indy.vancanegem@student.hogent.be}
-}
+    \textsuperscript{1} \href{mailto:nante.vermeulen@student.hogent.be}{nante.vermeulen@student.hogent.be}}
 \affiliation{
-	\textsuperscript{2}\href{mout.pessemier@student.hogent.be}
-}
+    \textsuperscript{2} \href{mailto:mout.pessemier@student.hogent.be}{mout.pessemier@student.hogent.be}}
 \affiliation{
-	\textsuperscript{3}\href{nante.vermeulen@student.hogent.be}
-}
+    \textsuperscript{3} \href{mailto:indy.vancanegem@student.hogent.be}{indy.vancanegem@student.hogent.be}}
 \affiliation{
-	\textsuperscript{4}\href{jef.malfliet@student.hogent.be}
+    \textsuperscript{4} \href{mailto:jef.malfliet@student.hogent.be}{jef.malfliet@student.hogent.be}
 }
 
 %---------- Abstract ----------------------------------------------------------
@@ -71,17 +72,17 @@
 
 \begin{document}
 	
-\flushbottom
-\maketitle
-\tableofcontents 
-\thispagestyle{empty} % Removes page numbering from the first page
+    \flushbottom
+    \maketitle
+    \tableofcontents 
+    \thispagestyle{empty} % Removes page numbering from the first page
 	%------------------------------------------------------------------------------
 	% Hoofdtekst
 	%------------------------------------------------------------------------------
 	
 	\section{Inleiding}
 	
-	In de software wereld bestaat er een heersende cultuur die over de jaren heen opgebouwd is, namelijk de fixed-price contracts. Dit paradigma brengt echter problemen met zich mee, namelijk de kwaliteit van een product die je afleverd. Om dit probleem op te lossen, hebben ze Agile ingevoerd. In deze casus bekijken we of het mogelijk is om zomaar over te stappen van fixed-price contracts naar het Agile paradigma. Ook wordt er gekeken of je beide paradigma's kan combineren. 
+	In de software wereld bestaat er een heersende cultuur die over de jaren heen opgebouwd is, namelijk de fixed-price contracts. Dit paradigma brengt echter problemen met zich mee, namelijk de kwaliteit van een product die je aflevert. Om dit probleem op te lossen, hebben ze Agile ingevoerd. In deze casus bekijken we of het mogelijk is om zomaar over te stappen van fixed-price contracts naar het Agile paradigma. Ook wordt er gekeken of je beide paradigma's kan combineren. 
 	
 	\section{Overzicht literatuur}
 	
@@ -103,15 +104,19 @@
 	Wat wel mogelijk is, is dat één van de opgenoemde variabelen eronder lijdt. Dan kunnen we kiezen uit 
 	'Money for nothing' (fixed-price met variable-scope) of 'Change for free' (variable-price met fixed-scope). 
 	
-	
+    \section{What is agile werken met een fixed-price contract?}
+    \subsection{Fixed-price contract}
+     Een fixed-price-contract is een contract in project managment waar de prijs vast staat. De resources en de gespendeerde tijd staan niet vast.
+     %bron moet ik nog bijzetten --> https://project-management-knowledge.com/definitions/f/fixed-price-contract/ 
+     \subsection{Agile contract}
+     Een Agile contract betekent dat er gewerkt wordt in iteraties en dat er steeds werkende software wordt opgeleverd bij elke iteratie.  
+    
+    \subsection{Agile met een fixed-price contract}
+    Agile werken met een fixed-price contract is mogelijk blijkt zeer moeilijk.
 	\section{Methodologie}
-	
-
-	
 	\section{Experimenten}
-	
-
-	
+    \subsection{Bedrijfsgesprek}
+    Het bedrijf waar wij onze casus op zullen uitvoeren is Faction XYZ BVBA, gelegen te Antwerpen. Bij Faction gebruiken ze verschillende methodes van werken. Sommige zijn fixed price, andere zijn Time \& Material en agile werken passen ze zeker ook toe. Faction zal ons dus een diepe kijk kunnen geven over deze verschillende methodes uitgewerkt in het bedrijfsleven en hoe deze mogelijks met elkaar kunnen overlappen.
 	\section{Analyse resultaten}
 	
 
@@ -131,4 +136,4 @@
 	\phantomsection
 	\printbibliography[heading=bibintoc]
 	
-\end{document}}
+\end{document}
