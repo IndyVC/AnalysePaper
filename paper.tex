@@ -28,11 +28,10 @@
 %---------- Titel & auteur ----------------------------------------------------
 
 % TODO: geef werktitel van je eigen voorstel op
-\PaperTitle{Agile werken met een fixed-price contracts: is het mogelijk?}
+\PaperTitle{De haalbaarheid van agile projects met fixed-price contracts}
 % TODO: geef op welk soort artikel dit is
 % Dit is typisch de opdracht en het vak waarvoor dit artikel geschreven is, bv.
-% ``Verslag onderzoeksproject Onderzoekstechnieken 2018-2019''
-\PaperType{Casus}
+\PaperType{Casus Analyse III 2019-2020}
 
 % TODO: vul je eigen naam in als auteur, geef ook je emailadres mee!
 \Authors{Indy Van Canegem\textsuperscript{1}, Mout Pessemier\textsuperscript{2}, Nante Vermeulen\textsuperscript{3}, Jef Malfliet\textsuperscript{4}} % Authors
@@ -45,12 +44,13 @@
 
 % Contactinfo: Geef hier de contactgegevens van elke auteur van het artikel (en
 % indien van toepassing ook van de co-promotor).
+
 \affiliation{
-    \textsuperscript{1} \href{mailto:nante.vermeulen@student.hogent.be}{nante.vermeulen@student.hogent.be}}
+    \textsuperscript{1} \href{mailto:indy.vancanegem@student.hogent.be}{indy.vancanegem@student.hogent.be}}
 \affiliation{
     \textsuperscript{2} \href{mailto:mout.pessemier@student.hogent.be}{mout.pessemier@student.hogent.be}}
 \affiliation{
-    \textsuperscript{3} \href{mailto:indy.vancanegem@student.hogent.be}{indy.vancanegem@student.hogent.be}}
+    \textsuperscript{3} \href{mailto:nante.vermeulen@student.hogent.be}{nante.vermeulen@student.hogent.be}}
 \affiliation{
     \textsuperscript{4} \href{mailto:jef.malfliet@student.hogent.be}{jef.malfliet@student.hogent.be}
 }
@@ -73,7 +73,7 @@
 \begin{document}
 	
     \flushbottom
-    %\maketitle
+    \maketitle
     \tableofcontents 
     \thispagestyle{empty} % Removes page numbering from the first page
 	%------------------------------------------------------------------------------
@@ -81,35 +81,30 @@
 	%------------------------------------------------------------------------------
 	
 	\section{Inleiding}
-	
-	In de software wereld bestaat er een heersende cultuur die over de jaren heen opgebouwd is, namelijk de fixed-price contracts. Dit paradigma brengt echter problemen met zich mee, namelijk de kwaliteit van het product dat je oplevert. Om dit probleem op te lossen, hebben ze een methodologie, namelijk agile software development, ingevoerd. In deze casus bekijken we of het mogelijk is om zomaar over te stappen van fixed-price contracts naar het agile paradigma. Ook wordt er gekeken of je beide paradigma's kan combineren. 
+	 Een fixed-Price agile project is een van nature tegenstrijdige concept. De twee filosofieën die schuilgaan in de term staan loodrecht tegenover elkaar.
+     
+     Fixed-price contracts (FPCs) zijn lange tijd de enige manier geweest om afspraken te stellen tussen klant en leverancier. Deze contracten minimaliseren tot op zekere hoogte het risico op een gefaald product. Dit gebeurd aan de hand van een verbod op het veranderen van de 'key business constraints' ongeacht het verschuiven van scope of het toenemen van complexiteit.
+     
+     Haaks hierop staat de methodologie van 'agile software development'. Hierbij is flexibiliteit van hoogste belang. Doorheen het hele agile project moet er ruimte zijn om zowel de scope als de prijs aan te passen. In deze casus bespreken we of FPCs een plaats hebben binnen een agile omgeving.
 	
 	\section{Overzicht literatuur}
 	
 	% Refereren naar de literatuur kan met:
 	% \autocite{BIBTEXKEY} -> (Auteur, jaartal)
 	% \textcite{BIBTEXKEY} -> Auteur (jaartal)
-	In het oude paradigma (fixed-price contracts), wordt er geen
-	rekening gehouden met de grenzen van deze variabelen 	\autocite{Scrumology2012}. Hierbij levert men simpelweg een product tegen een bepaalde
-	tijd voor een bepaalde prijs. Dit is dan ook de reden dat de kwaliteit achteruit ging bij software projecten. 
+    
+	De fixed-price contracts wordt er geen rekening gehouden met de verandering van deze price en scope \autocite{Scrumology2012}. Deze zijn vastgelegd in het contract en kunnen onder geen enkele voorwaarden worden veranderd. Dit bied op het eerste zich een hoop zekerheid voor de klant. Deze aantrekkelijke contracten lijken weinig potentiële risico's met zich mee te dragen maar dit blijkt echter in de praktijk anders te zijn. Het project zal niet falen op vlak van prijs. En het zal ook niet falen op vlak van scope. Een paradigma als FPC brengt echter wel problemen met zich mee als het gaat over de kwaliteit van het product. Door het cementeren van de scope en de prijs laat men de leverancier slechts een keuze om bij te sturen bij onverwachte wendingen. De kwaliteit zal steeds moeten inboeten. Dit is een valkuil die op voorhand niet is op te merken voor de klant. Hun tevredenheid over de aflevertijd en de omvang van het product zal van korte duur zijn bij hun eerste gebruik. Het tekort aan kwaliteit heeft onvoorziene veranderingen in scope of aflevertijd moeten compenseren.
+    
+    Ondanks dit blijfen FPCs een veelgebruikte aanpak. Dit komt vaak door de onzekerheid die voortkomt uit de relatie van een klant en een leverancier van software. Men wil zijn product tegen een afgesproken deadline. En voor een vooraf bepaalde som geld. Kortom, de klant wilt zekerheid. Men wil op voorhand de te voorziene risico's vermijden. In deze taak slaagt een FPC compleet. Te dure activiteiten, halve of foute implementaties, te lange aflevertijd, enz. Deze problemen worden omzeild of opgelost met behulp van een dergelijk contract. Het grote probleem met deze aanpak is net datgene dat het zo aantrekkelijk maakt. De onvoorziene veranderingen hebben weinig manieren om te worden opgelost. Hier bied agile werken hulp.
+    
+    Flexibiliteit is een van de grootste troeven van het agile paradigma. Reageren op onverwachte veranderingen is bij agile zeer gemakkelijk. Toch is de combinatie agile te werken met FPCs niet vanzelfsprekend. De twee methodologieën sluiten verre van naadloos aan op elkaar. Een fixed-budget, fixed-scope contract hanteren wanneer je een kwaliteitsvol agile project wil opleveren lijkt onmogelijk. Dit kan niet zonder dat één van de eerdergenoemde variabelen eronder lijdt. De twee meest bekende manieren om dit op een gestructureerde manier te doen kiezen zijn 'Money for nothing' (fixed-price met variable-scope) en 'Change for free' (variable-price met fixed-scope). 
 	
-	Waarom is het fixed-price contract paradigma dan zo populair geweest? 
-	Simpelweg omdat de klant de leverancier van de software niet betrouwt. Ze willen gewoon hun product tegen een 
-	afgesproken deadline. Indien je niet aan deze eisen kan voldoen, is het makkelijk om naar de concurrentie te gaan. 
-	Om de concurrentie boven te gaan, ga je rekening gaan beginnen houden met de kwaliteit van een product. We maken
-	dus nu gebruik van agile. We willen absoluut kwaliteitsvolle software opleveren. 
-	
-	Toch is het best lastig om agile te combineren met de vastgeroeste bedrijfscultuur (fixed-price contracts). Want
-	het één sluit het ander uit. Je kan geen fixed-budget, fixed-scope hanteren wanneer je kwaliteit wilt opleveren. 
-	Wat wel mogelijk is, is dat één van de opgenoemde variabelen eronder lijdt. Dan kunnen we kiezen uit 
-	'Money for nothing' (fixed-price met variable-scope) of 'Change for free' (variable-price met fixed-scope). 
-	
-    \section{Wat is agile werken met een fixed-price contract?}
-    \subsection{Fixed-price contract}
+    \subsection{Wat is agile werken met een fixed-price contract?}
+    \subsubsection{Fixed-price contract}
      Een fixed-price-contract is een contract in project managment waar de prijs vast staat. De resources en de gespendeerde tijd staan niet vast \autocite{PMK} in theorie. In de business wereld zien we echter dat wanneer gesproken wordt over een fixed-price contract zowel scope als budget bedoeld worden \autocite{PMI2011}.
      %bron moet ik nog bijzetten --> https://project-management-knowledge.com/definitions/f/fixed-price-contract/ 
-     \subsection{Agile contract}
-     Agile werken beschrijft het proces waarbij iteratief en incrementeel een software product wordt opgeleverd. Men gaat te werk gebruik makende van 'sprints'. Sprints zijn tijdsintervallen (van meestal 2 weken), waarna elke sprint met de klant samen gezeten wordt om de opgeleverde en \textbf{werkende} software te bespreken en om feedback te geven. Hierdoor kan vroeger op de wijzigende verwachtingen van de klant ingespeeld worden en kunnen falende projecten nog rechtgetrokken worden. Agile werken brengt vele voordelen met zich mee maar er zijn ook een aantal nadelen aan verbonden. Voor startende teams is agile werken een echte opgave waar ze zich moeten in inwerken. Ook kost het veel tijd.
+     \subsubsection{Agile contract}
+     Agile werken beschrijft het proces waarbij iteratief en incrementeel een software product wordt opgeleverd. Men gaat te werk gebruik makende van 'sprints'. Sprints zijn tijdsintervallen (van meestal 2 weken), waarna elke sprint met de klant samen gezeten wordt om de opgeleverde en werkende software te bespreken en om feedback te geven. Hierdoor kan vroeger op de wijzigende verwachtingen van de klant ingespeeld worden en kunnen falende projecten nog rechtgetrokken worden. Agile werken brengt vele voordelen met zich mee maar er zijn ook een aantal nadelen aan verbonden. Voor startende teams is agile werken een echte opgave waar ze zich moeten in inwerken. Ook kost het veel tijd.
     
     \subsection{Agile met een fixed-price contract}
     Agile werken met een fixed-price contract is mogelijk maar, blijkt zeer moeilijk te zijn aangezien de fundamenten van het agile manifesto zeggen dat een project leider meer waarde zou moeten hechten aan antwoorden op verandering dan een plan te volgen (wegens de competitieve voordelen dat dit oplevert t.o.v. de concurrentie) en dit is het tegenovergestelde wat in een fixed-price/fixed-scope project verwacht wordt \autocite{PMI2011}. Hoe kan men dan tegelijkertijd zowel een wijziging verwelkomen als voorkomen?
