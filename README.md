@@ -7,6 +7,6 @@ Deze paper beschrijft het werken binnen een fixed-cost project en gaat na of men
 - Geloven jullie dat je fixed-price contracts kan combineren met agile?
 - Indien ja, wat zouden de voordelen hiervan zijn?
 - Indien nee, waarom niet? Is het onmogelijk om iets fixed om te zetten naar variable?
-- Zijn er ook nadelen aan het werken binnen fixed-cost contracts (binnen en buiten agile werken)
+- Zijn er ook nadelen aan het werken binnen fixed-cost contracts? (binnen en buiten agile werken)
 
 &copy; 2019-2020, Malfliet Jef, Pessemier Mout, Van Canegem Indy, Vermeulen Nante
