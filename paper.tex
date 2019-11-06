@@ -73,7 +73,7 @@
 \begin{document}
 	
     \flushbottom
-   	\maketitle
+    %\maketitle
     \tableofcontents 
     \thispagestyle{empty} % Removes page numbering from the first page
 	%------------------------------------------------------------------------------
@@ -93,7 +93,7 @@
 	% \autocite{BIBTEXKEY} -> (Auteur, jaartal)
 	% \textcite{BIBTEXKEY} -> Auteur (jaartal)
     
-	De fixed-price contracts wordt er geen rekening gehouden met de verandering van deze price en scope \autocite{Scrumology2012}. Deze zijn vastgelegd in het contract en kunnen onder geen enkele voorwaarden worden veranderd. Dit bied op het eerste zich een hoop zekerheid voor de klant. Deze aantrekkelijke contracten lijken weinig potentiële risico's met zich mee te dragen maar dit blijkt echter in de praktijk anders te zijn. Het project zal niet falen op vlak van prijs. En het zal ook niet falen op vlak van scope. Een paradigma als FPC brengt echter wel problemen met zich mee als het gaat over de kwaliteit van het product. Door het cementeren van de scope en de prijs laat men de leverancier slechts een keuze om bij te sturen bij onverwachte wendingen. De kwaliteit zal steeds moeten inboeten. Dit is een valkuil die op voorhand niet is op te merken voor de klant. Hun tevredenheid over de aflevertijd en de omvang van het product zal van korte duur zijn bij hun eerste gebruik. Het tekort aan kwaliteit heeft onvoorziene veranderingen in scope of aflevertijd moeten compenseren.
+	De fixed-price contracts wordt er geen rekening gehouden met de verandering van deze price en scope \autocite{SCRUM2012}. Deze zijn vastgelegd in het contract en kunnen onder geen enkele voorwaarden worden veranderd. Dit bied op het eerste zich een hoop zekerheid voor de klant. Deze aantrekkelijke contracten lijken weinig potentiële risico's met zich mee te dragen maar dit blijkt echter in de praktijk anders te zijn. Het project zal niet falen op vlak van prijs. En het zal ook niet falen op vlak van scope. Een paradigma als FPC brengt echter wel problemen met zich mee als het gaat over de kwaliteit van het product. Door het cementeren van de scope en de prijs laat men de leverancier slechts een keuze om bij te sturen bij onverwachte wendingen. De kwaliteit zal steeds moeten inboeten. Dit is een valkuil die op voorhand niet is op te merken voor de klant. Hun tevredenheid over de aflevertijd en de omvang van het product zal van korte duur zijn bij hun eerste gebruik. Het tekort aan kwaliteit heeft onvoorziene veranderingen in scope of aflevertijd moeten compenseren.
     
     Ondanks dit blijfen FPCs een veelgebruikte aanpak. Dit komt vaak door de onzekerheid die voortkomt uit de relatie van een klant en een leverancier van software. Men wil zijn product tegen een afgesproken deadline. En voor een vooraf bepaalde som geld. Kortom, de klant wilt zekerheid. Men wil op voorhand de te voorziene risico's vermijden. In deze taak slaagt een FPC compleet. Te dure activiteiten, halve of foute implementaties, te lange aflevertijd, enz. Deze problemen worden omzeild of opgelost met behulp van een dergelijk contract. Het grote probleem met deze aanpak is net datgene dat het zo aantrekkelijk maakt. De onvoorziene veranderingen hebben weinig manieren om te worden opgelost. Hier bied agile werken hulp.
     
@@ -110,8 +110,8 @@
     Agile werken met een fixed-price contract is mogelijk maar, blijkt zeer moeilijk te zijn aangezien de fundamenten van het agile manifesto zeggen dat een project leider meer waarde zou moeten hechten aan antwoorden op verandering dan een plan te volgen (wegens de competitieve voordelen dat dit oplevert t.o.v. de concurrentie) en dit is het tegenovergestelde wat in een fixed-price/fixed-scope project verwacht wordt \autocite{PMI2011}. Hoe kan men dan tegelijkertijd zowel een wijziging verwelkomen als voorkomen?
 	
 	\section{Methodologie}
-	We hebben gebruik gemaakt van verschillende elasticiteitstechnieken om het interview af te nemen. Het Interview met Faktion XYZ was ter plekke waarbij Jef Malfliet en Mout Pessemier beurtelings de vragen hebben gesteld. Het interview met Izit was telefonisch afgelged. Hierbij heeft Jef Malfliet het voorwoord genomen.
-	\linebreak
+	We hebben gebruik gemaakt van verschillende elasticiteitstechnieken om het interview af te nemen. Het interview met Faktion XYZ was ter plekke waarbij Jef Malfliet en Mout Pessemier beurtelings de vragen hebben gesteld. Het interview met Izit was telefonisch afgelegd. Hierbij heeft Jef Malfliet het voorwoord genomen.
+	
 	Hierbij zijn we gestart met het uitleggen van de casus. Waarom voeren wij dit gesprek, wat wensen wij te weten te komen, hoe zit de realiteit er uit ten opzichte van wat we in de literatuurstudie zijn te weten gekomen? Nadien hebben we onze voorbereide vragen gesteld en ingespeeld op het antwoord van de geïnterviewde. Om af te sluiten zijn we snel nog eens over alle puntjes gegaan om er zeker van te zijn dat we het goed verstaan hadden en nadien hebben we onze gesprekspartner bedankt.
 	
 	\section{Experimenten}
@@ -132,7 +132,7 @@
 		\item Zijn er nadelen aan het werken binnen een fixed-price contract die agile niet heeft en omgekeerd zijn er voordelen aan een fixed-price contract die agile niet heeft?
 	\end{itemize}
 		
-    \subsection{De Bedrijven}
+    \subsection{De bedrijven}
     Het eerste bedrijf waar wij onze casus op zullen uitvoeren is Faktion XYZ BVBA, gelegen te Antwerpen. Bij Faction gebruiken ze verschillende methodes van werken. Sommige zijn fixed price, andere zijn time \& material en nog anderen pakken ze agile aan. Faction zal ons dus een diepe kijk kunnen geven over deze verschillende methodes uitgewerkt in het bedrijfsleven en hoe deze mogelijks met elkaar kunnen overlappen en versterken of juist tegen werken.
     \linebreak
     \linebreak
@@ -141,19 +141,30 @@
     \subsection{Gesprek met Faktion XYZ}
     Bij Faktion hebben we gesproken met Laurens Laveart, de lead developer van de startup. Hieruit hebben we veel geleerd. Zo zijn we te weten gekomen dat het verschil in werken tussen fixed-price contracts geen verschil uitmaakt voor het development team. Ze werken altijd met deadlines (via milestones) of het nu agile of fixed-price is. Deze milestones gaan als volgt te werk: Tegen datum X wordt een nieuw product verwacht. Als dit een klein project is, is het hele project slechts één milestone. Grote projecten daarentegen worden opgedeeld in meerdere milestones waarbij elke milestone een werkend product oplevert. De eerste milestone levert natuurlijk het minimal viable product (mvp) op.
     
-    Het opzetten van zo'n proces gaat als volgt tewerk: onderdeel X van bedrijf Y wil product Z. Zij stappen naar Faktion om een (eventueel) fixed-price contract vast te leggen. Dan wordt er onderhandeld met de klant, wordt er een functionele analyse toegepast en de functionele requirements vastgelegd. Deze requirements worden voorgelegd aan het development team. Op basis hiervan word dan ingeschat hoeveel tijd en geld dit zal kosten. Hier worden dan ook al buffer ingebouwd. Deze projecten worden daarna op een KANBAN manier afgewerkt en opgeleverd. Moest er toch iets fout lopen en er zou over tijd of budget moeten gegeaan worden, dan wordt het probleem eerst voorgelegd aan de project manager. Die gaat de klant contacteren om het probleem te meldenen samen een oplossing te zoeken. Meestal resulteert dit in het bedrijf dat bijbetaald. Eens het project af is wordt het niet onderhouden tenzij dit deel was van het contract of als de klant nieuwe features wilt.
+    Het opzetten van zo'n proces gaat als volgt te werk: onderdeel X van bedrijf Y wil product Z. Zij stappen naar Faktion om een (eventueel) fixed-price contract vast te leggen. Dan wordt er onderhandeld met de klant, wordt er een functionele analyse toegepast en de functionele requirements vastgelegd. Deze requirements worden voorgelegd aan het development team. Op basis hiervan word dan ingeschat hoeveel tijd en geld dit zal kosten. Hier worden dan ook al buffer ingebouwd. Deze projecten worden daarna op een KANBAN manier afgewerkt en opgeleverd. Moest er toch iets fout lopen en er zou over tijd of budget moeten gegaan worden, dan wordt het probleem eerst voorgelegd aan de project manager. Die gaat de klant contacteren om het probleem te melden samen een oplossing te zoeken. Meestal resulteert dit in het bedrijf dat bijbetaald. Eens het project af is wordt het niet onderhouden tenzij dit deel was van het contract of als de klant nieuwe features wilt.
     
     De bedrijven die eerder een fixed-price aangaan zijn grote bedrijven die zeer gestructureerd te werk gaan zoals onder andere Winston en Proximus.
     
     De beide werkflows zijn dus zeker combineerbaar.
     
-    \subsection{Gesprek met Izit}
+    \subsection{Gesprek met IZIT}
+    Via een telefonisch gesprek met de zaakvoerder, Ignace De Coster, kregen wij inzage in hoe men bij IZIT BVBA werkt met fixed price contracts. En bijgevolg ook hoe zij dit combineren met agile werken. Uit het gesprek volgde dat hoewel IZIT af en toe met fixed price contracts werkt dit uitzonderlijk met grotere bedrijven is. Dit komt door het feit dat in de IT-sector zeer weinig met dit soort contracten wordt gewerkt. Het tot stand komen van een fixed price contract verloopt bij hun in meerdere fasen.
+    
+    Er zal eerst een commercieel gesprek met de klant worden gehouden. Hieruit zal een functionele analyse vloeien die onder andere schetsen van het product, een klassendiagram en een databankdiagram zal bevatten. Deze vergemakkelijkt het opstellen van een contract. Het is immens moeilijk om een scope, een kostprijs en een afleverperiode vast te leggen aan de hand van het abstracte idee voor een product. Deze analyse zal deel uitmaken van het fixed price contract dat in overleg zal worden opgesteld. Hierin zal zich ook een SLA (Service Level Agreement) bevinden.
+    
+    Als dit basiscontract overeen gekomen is zal dit niet meer worden veranderd. Wel zullen er nog addenda kunnen worden toegevoegd om toch flexibiliteit toe te staan. Op deze manier kunnen de opgelegde limieten bij een fixed price contract verbogen worden. Bij het basiscontract worden ook steeds een buffer ingecalculeerd voor de opleverdatum. IZIT werkt niet met een precieze datum maar met een opleverperiode. Op deze manier is er een bepaalde speling die kan worden gebruikt. Deze aanpak wordt ook gehandhaafd als er doorheen het project geen aanpassingen voorkomen.
+    
+    Fixed price contracten zijn volgens IZIT geen meerwaarde voor klanten die KMO zijn. Dit komt voornamelijk omdat de voortgang van een project binnen IT veel kan verschillen van periode tot periode. Ook weet de klant dat bij fixed price contracten er meer zal worden betaald dan bij een alternatief contract. Dit komt met het voordeel dat men wel zal kunnen budgetteren aangezien de prijs niet zal veranderen. Voor grotere bedrijven is het aanbieden van fixed price contracten voor IZIT wel een kleine voorsprong op de competitie.
+    
+    De developers werken agile aan de hand van het scrum framework. Men werkt steeds in sprints van 2 weken. Hierbij worden twee parallelle sprints gehouden. Een develop sprint en een debug sprint. Op deze manier worden de oplossingen voor bugs en problemen gescheiden gehouden en bied dit een goed overzicht. Er wordt soms in sprints van een maand gewerkt als de aanpassing aan het product of de toevoeging van een feature te groot is om in 2 weken af te werken. Een sprint zal nooit langer dan een maand duren. 
+    
+     De combinatie van agile werken binnen een fixed price contract levert voor IZIT geen problemen op. Er wordt geen verschil gemerkt tussen werken onder een FPC of een ander contract. De verklaring die Mr de Coster hiervoor gaf was het feit dat bij andere projecten men ook geen carte blanche krijgt. Men zal steeds attent moeten zijn bij het ontwikkelen van een project, ongeacht het contract. Af en toe zorgen de vaste limieten bij een FCP  voor wat meer stress en onrust. Maar over het algemeen zullen er geen problemen optreden bij het agile werken onder FPC's.
 	\section{Analyse resultaten}
 	
 
 	
 	\section{Conclusie}
-	Uit beide gesprekken blijkt dat agile werken wel degelijk te combineren valt met fixed-price contracts mits enige nuances wat de literatuur studie tegenspreekt. Beide bedrijven bouwen een soort buffer in voor elk f-p contract. Deze buffer kan bestaan uit tijd of geld. Doorheen het process wordt er dan op een of andere manier (KANBAN, scrum of nog een andere manier) agile gewerkt om zo proberen tijdig het contract af te werken. Als dit toch niet lukt, dan wordt er in overleg met de klant besproken wat er nog gedaan/kan gedaan worden om het project zo succesvol mogelijk te houden. Meestal komt dit neer op het feit dat de klant bijbetaald (tegen een lagere prijs) om het project af te werken. Voor het development team dat werkt aan het contract maakt het niet uit of ze nu een fixed-price opdracht krijgen of niet, dezelfde manier van werken wordt gehanteerd. Ook blijkt dat vooral grote bedrijven en overheids bedrijven fixed-price contracts aangaan.
+	Uit beide gesprekken blijkt dat agile werken wel degelijk te combineren valt met fixed-price contracts mits enige nuances wat de literatuur studie tegenspreekt. Beide bedrijven bouwen een soort buffer in voor elk f-p contract. Deze buffer kan bestaan uit tijd of geld. Doorheen het process wordt er dan op een of andere manier (KANBAN, scrum of nog een andere manier) agile gewerkt om zo proberen tijdig het contract af te werken. Als dit toch niet lukt, dan wordt er in overleg met de klant besproken wat er nog gedaan/kan gedaan worden om het project zo succesvol mogelijk te houden. Meestal komt dit neer op het feit dat de klant bijbetaald om het project af te werken. Voor het development team dat werkt aan het contract maakt het niet uit of ze nu een fixed-price opdracht krijgen of niet, dezelfde manier van werken wordt gehanteerd. Ook blijkt dat vooral grote bedrijven en overheids bedrijven fixed-price contracts aangaan.
 
 	
 	%------------------------------------------------------------------------------
