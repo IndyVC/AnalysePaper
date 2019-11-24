@@ -1,49 +1,16 @@
-%==============================================================================
-% Voorbeeld gebruik documentklasse hogent-article
-%==============================================================================
-%
-% Compileren in TeXstudio:
-%
-% - Zorg dat Biber de bibliografie compileert (en niet Biblatex)
-%   Options > Configure > Build > Default Bibliography Tool: "txs:///biber"
-% - F5 om te compileren en het resultaat te bekijken.
-% - Als de bibliografie niet zichtbaar is, probeer dan F5 - F8 - F5
-%   Met F8 compileer je de bibliografie apart.
-%
-% Als je JabRef gebruikt voor het bijhouden van de bibliografie, zorg dan
-% dat je in ``biblatex''-modus opslaat: File > Switch to BibLaTeX mode.
-
 \documentclass{hogent-article}
-\usepackage{lipsum} % Voor vultekst
+\usepackage{lipsum}
 \usepackage[backend=biber]{biblatex}
 \usepackage{graphicx}
 \usepackage{bmpsize}
 \addbibresource{bibliografie.bib}
 
-
-%------------------------------------------------------------------------------
-% Metadata over het artikel
-%------------------------------------------------------------------------------
-
-%---------- Titel & auteur ----------------------------------------------------
-
-% TODO: geef werktitel van je eigen voorstel op
 \PaperTitle{De haalbaarheid van agile projects binnen fixed-price contracts}
-% TODO: geef op welk soort artikel dit is
-% Dit is typisch de opdracht en het vak waarvoor dit artikel geschreven is, bv.
 \PaperType{Casus Analyse III 2019-2020}
 
-% TODO: vul je eigen naam in als auteur, geef ook je emailadres mee!
-\Authors{Indy Van Canegem\textsuperscript{1}, Mout Pessemier\textsuperscript{2}, Nante Vermeulen\textsuperscript{3}, Jef Malfliet\textsuperscript{4}} % Authors
+\Authors{Indy Van Canegem\textsuperscript{1}, Mout Pessemier\textsuperscript{2}, Nante Vermeulen\textsuperscript{3}, Jef Malfliet\textsuperscript{4}} 
 
-% TODO: vul de naam van je co-promotor in.
-% Als het hier gaat om een voorstel voor de bachelorproef, dan ben je hier
-% verplicht de naam van je co-promotor in te vullen. Zoniet, dan kan je het
-% leeg laten.
 \CoPromotor{}
-
-% Contactinfo: Geef hier de contactgegevens van elke auteur van het artikel (en
-% indien van toepassing ook van de co-promotor).
 
 \affiliation{
     \textsuperscript{1} \href{mailto:indy.vancanegem@student.hogent.be}{indy.vancanegem@student.hogent.be}}
@@ -74,7 +41,7 @@
     \flushbottom
     \maketitle
     \tableofcontents 
-    \thispagestyle{empty} % Removes page numbering from the first page
+    \thispagestyle{empty} 
 	%------------------------------------------------------------------------------
 	% Hoofdtekst
 	%------------------------------------------------------------------------------
@@ -87,6 +54,7 @@
      Haaks hierop staat de methodologie van 'agile software development'. Hierbij is flexibiliteit van hoogste belang. Doorheen het hele agile project moet er ruimte zijn om zowel scope als prijs aan te passen.
      
      In deze casus wordt besproken of FPCs een plaats hebben binnen een agile omgeving. Is het mogelijk om flexibel te werken aan een software project wanneer er strikte beperkingen worden opgelegd? 
+	
 	
 	\section{Overzicht literatuur}
     \subsection{Fixed-price contracts}
@@ -111,6 +79,7 @@
 	Om de wrijving, die duidelijk voortkomt uit de theorie, bij agile werken in FPCs waar te nemen in de praktijk werden er interviews afgelegd met 2 Belgische softwarebedrijven. Er werd gebruik gemaakt van een op voorhand opgestelde vragenlijst (\ref{vragen}) maar deze werd eerder gebruikt als ondersteuning. Bij beide interviews was er een open conversatie waarbij de vragen gebruikt werden om het gesprek te beginnen, te veranderen van onderwerp of dieper in te gaan op het huidige onderwerp. Het interview met Faktion XYZ was ter plaatse, hierbij hebben Jef Malfliet en Mout Pessemier beurtelings vragen gesteld. Het interview met Izit BVBA werd telefonisch afgelegd. Hierbij heeft Jef Malfliet het gesprek geleid.
 	
 	Er werd steeds begonnen met het uitleggen van de casus.  Hierbij werd duidelijk waarom dit gesprek werd gevoerd. Nadien werden de voorbereide vragen gesteld en werd er ingespeeld op het antwoord van de geïnterviewde persoon. Om af te sluiten werden kort alle antwoorden nog eens overlopen om te verzekeren dat alles goed werd begrepen en nadien werd de gesprekspartner bedankt voor zijn medewerking.
+	
 	
 	\section{Interviews}
 	\subsection{Vragenlijst}
