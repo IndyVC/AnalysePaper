@@ -80,42 +80,41 @@
 	%------------------------------------------------------------------------------
 	
 	\section{Inleiding}
-	 Een fixed-price agile project is een van nature tegenstrijdige concept. De twee filosofieën die schuilgaan in de term staan namelijk loodrecht tegenover elkaar.
+	 Een fixed-price agile project is een van nature tegenstrijdige concept. De twee filosofieën die schuilgaan in de term staan namelijk loodrecht ten opzichte elkaar.
      
      Fixed-price contracts (FPCs) zijn een betrouwbare manier om afspraken te stellen tussen klant en leverancier. Deze contracten minimaliseren tot op zekere hoogte het risico op een gefaald product. Dit gebeurd aan de hand van een verbod op het veranderen van de 'key business constraints' ongeacht het verschuiven van scope of het toenemen van complexiteit.
      
-     Haaks hierop staat de methodologie van 'agile software development'. Hierbij is flexibiliteit van hoogste belang. Doorheen het hele agile project moet er ruimte zijn om zowel scope als prijs aan te passen. In deze casus wordt besproken of FPCs een plaats hebben binnen een agile omgeving.
+     Haaks hierop staat de methodologie van 'agile software development'. Hierbij is flexibiliteit van hoogste belang. Doorheen het hele agile project moet er ruimte zijn om zowel scope als prijs aan te passen.
+     
+     In deze casus wordt besproken of FPCs een plaats hebben binnen een agile omgeving. Is het mogelijk om flexibel te werken aan een software project wanneer er strikte beperkingen worden opgelegd? 
 	
 	\section{Overzicht literatuur}
-	
-	% Refereren naar de literatuur kan met:
-	% \autocite{BIBTEXKEY} -> (Auteur, jaartal)
-	% \textcite{BIBTEXKEY} -> Auteur (jaartal)
+    \subsection{Fixed-price contracts}
+    Een FPC is een contract in project management waar de prijs vast staat. De resources en de gespendeerde tijd staan in theorie niet vast \autocite{PMK}. In de business wereld is echter te zien dat wanneer gesproken wordt over een FPC zowel scope als budget bedoeld wordt \autocite{PMI2011}.
     
-	Bij FPCs wordt er geen rekening gehouden met de verandering van de price en scope \autocite{SCRUM2012}. Deze zijn vastgelegd in het contract en kunnen onder geen enkele voorwaarden worden veranderd. Dit biedt op het eerste zich een hoop zekerheid voor de klant. Deze aantrekkelijke contracten lijken weinig potentiële risico's met zich mee te dragen maar dit blijkt echter in de praktijk anders te zijn. Het project zal niet falen op vlak van prijs. En het zal ook niet falen op vlak van scope. Een paradigma als FPC brengt echter wel problemen met zich mee als het gaat over de kwaliteit van het product. Door het cementeren van de scope en de prijs laat men de leverancier slechts een keuze om bij te sturen bij onverwachte wendingen. De kwaliteit zal steeds moeten inboeten. Dit is een valkuil die op voorhand niet is op te merken voor de klant. Hun tevredenheid over de aflevertijd en de omvang van het product zal van korte duur zijn bij hun eerste gebruik. Het tekort aan kwaliteit kan gecompenseerd worden door de aflevertijd en de scope te beperken en vice versa.
+    \subsection{Agile framework}
+    Het agile framework beschrijft hoe men iteratief en incrementeel software kan opleveren. Men gaat te werk aan de hand van 'sprints'. Deze zijn periodes (vaak 2 weken) waarin men slechts een deel van de software ontwikkelt of verder bouwt op een al bestaand stuk code. Na elke sprint wordt met de klant samen gezeten om de opgeleverde en werkende software te bespreken en om feedback te ontvangen. Hierdoor kan vroeger op nieuwe verwachtingen van de klant ingespeeld worden en kunnen falende projecten nog rechtgetrokken worden.
+    Agile werken brengt veel voordelen met zich mee: flexibiliteit, transparantie tussen klant en leverancier, maatwerk op basis van de noden van een klant enz. Er zijn ook een aantal nadelen verbonden aan agile werken. Voor startende teams is deze methode handhaven zeer onwennig, men moet zich inwerken. Door de wendbaarheid voor aanpassingen die het framework biedt is er vaak ook een langere ontwikkelingsperiode dan andere methodes.
     
-    Ondanks dit blijven FPCs een veelgebruikte aanpak. Dit komt vaak door de onzekerheid die voortkomt uit de relatie van een klant en een leverancier van software. Men wil zijn product tegen een afgesproken deadline en voor een vooraf bepaalde som geld. Kortom, de klant wil zekerheid. De klant wil aan de hand van een contract risico's vermijden. Echter hebben onvoorziene veranderingen 
-    weinig of geen ruimte binnen deze contracten. Hier biedt agile werken een oplossing.
+    \subsection{Agile werken binnen een FPC}
+	Bij FPCs wordt er geen rekening gehouden met de verandering van price en scope \autocite{SCRUM2012}. Deze zijn vastgelegd in het contract en kunnen onder geen enkele voorwaarden worden veranderd. Dit biedt een hoop zekerheid voor de klant. Deze aantrekkelijke contracten lijken weinig potentiële risico's met zich mee te dragen maar dit blijkt in de praktijk anders te zijn. Het project zal niet falen op vlak van prijs. En het zal ook niet falen op vlak van scope. Een paradigma als FPC brengt echter wel problemen met zich mee als het gaat over de kwaliteit van het product. Door het cementeren van de scope en de prijs laat men de leverancier slechts één keuze om bij te sturen bij onverwachte wendingen. De kwaliteit zal moeten inboeten. Dit is een valkuil die op voorhand vaak niet in rekening wordt gebracht door de klant. Het tekort aan kwaliteit kan gecompenseerd worden door de aflevertijd en de scope te beperken en vice versa.
     
-    Flexibiliteit is een van de grootste troeven van het agile paradigma. Reageren op onverwachte veranderingen is bij agile zeer makkelijk. Toch is de combinatie om agile te werken met FPCs niet vanzelfsprekend. De twee methodologieën spreken elkaar namelijk tegen. Fixed-budget - fixed-scope contracts hanteren wanneer je een kwaliteitsvol agile project wil opleveren lijkt onmogelijk. Dit kan niet zonder dat één van de eerdergenoemde variabelen eronder lijdt. De twee meest bekende manieren zijn 'Money for nothing' (fixed-price met variable-scope) en 'Change for free' (variable-price met fixed-scope). 
-	
-    \subsection{Wat is agile werken met een fixed-price contract?}
-    \subsubsection{Fixed-price contract}
-     Een FPC is een contract in project managment waar de prijs vast staat. De resources en de gespendeerde tijd staan in theorie niet vast \autocite{PMK}. In de business wereld is echter te zien dat wanneer gesproken wordt over een FPC zowel scope als budget bedoeld wordt \autocite{PMI2011}.
-     %bron moet ik nog bijzetten --> https://project-management-knowledge.com/definitions/f/fixed-price-contract/ 
-     \subsubsection{Agile contract}
-     Agile werken beschrijft het paradigma waarbij iteratief en incrementeel een software product wordt opgeleverd. Men gaat te werk aan de hand van 'sprints'. Sprints zijn tijdsintervallen (van meestal 2 weken), waarna elke sprint met de klant samen gezeten wordt om de opgeleverde en werkende software te bespreken en om feedback te geven. Hierdoor kan vroeger op nieuwe verwachtingen van de klant ingespeeld worden en kunnen falende projecten nog rechtgetrokken worden. Agile werken brengt veel voordelen met zich mee maar er zijn ook een aantal nadelen aan verbonden. Voor startende teams is agile werken een echte opgave waar ze zich moeten inwerkenen en kost het daarnaast veel tijd.
+    Ondanks dit blijven FPCs een veelgebruikte aanpak. Dit komt door de onzekerheid die voortkomt uit de relatie van een klant en een softwareleverancier. Men wil zijn product tegen een afgesproken deadline en voor een vooraf bepaalde som geld. Dit geeft een klant de mogelijkheid om projecten te budgetteren.  Een klant wil aan de hand van een FPC zoveel mogelijk risico's vermijden. Als de prijs en omvang van een project vast staan, zijn dat geen onbekende variabelen meer die mogelijk voor problemen kunnen zorgen. Voor onvoorziene veranderingen van de scope is er echter weinig of geen ruimte binnen deze contracten. Hier biedt agile werken een oplossing.
+    
+    Flexibiliteit is een van de grootste troeven van het agile paradigma. Een van de grootste troeven van de methode is de mogelijkheid om snel en makkelijk te kunnen reageren op onverwachte veranderingen in een project. Toch is de combinatie om agile te werken met FPCs niet vanzelfsprekend. De twee methodologieën spreken elkaar namelijk tegen. Fixed-budget, fixed-scope contracts hanteren wanneer je een kwaliteitsvol agile project wil opleveren lijkt onmogelijk. Dit kan niet zonder dat één van de eerdergenoemde variabelen eronder lijdt. Deze methodes heten 'Money for nothing' (fixed-price met variable-scope) en 'Change for free' (variable-price met fixed-scope). 
     
     \subsection{Agile met een fixed-price contract}
-    Agile werken met een FPC is mogelijk, maar blijkt zeer moeilijk te zijn aangezien de fundamenten van het agile manifesto zeggen dat een project leider meer waarde zou moeten hechten aan antwoorden op verandering dan een plan te volgen (wegens de competitieve voordelen dat dit oplevert t.o.v. de concurrentie) en dit is het tegenovergestelde wat in een fixed-price/fixed-scope project verwacht wordt \autocite{PMI2011}. Hoe kan men dan tegelijkertijd zowel een wijziging verwelkomen als voorkomen?
+    Agile werken met een FPC is mogelijk, maar blijkt in theorie een zeer moeilijk opdracht. Bijvoorbeeld, de fundamenten van het agile manifesto zeggen dat een project leider meer waarde zou moeten hechten aan de beantwoording op veranderingen dan een plan te volgen. Dit levert competitieve voordelen ten opzichte van de concurrentie. Dit is het tegenovergestelde wat in een fixed-price/fixed-scope project verwacht wordt, waarbij er op voorhand een plan wordt gedefinieerd \autocite{PMI2011}. Hoe kan men dan tegelijkertijd zowel een wijziging verwelkomen als voorkomen?
+	
 	
 	\section{Methodologie}
-	Er is gebruik gemaakt van verschillende elasticiteitstechnieken om het interview af te nemen. Het interview met Faktion XYZ was ter plaatse waarbij Jef Malfliet en Mout Pessemier beurtelings de vragen hebben gesteld. Het interview met Izit was telefonisch afgelegd. Hierbij heeft Jef Malfliet het voorwoord genomen.
+	Om de wrijving, die duidelijk voortkomt uit de theorie, bij agile werken in FPCs waar te nemen in de praktijk werden er interviews afgelegd met 2 Belgische softwarebedrijven. Er werd gebruik gemaakt van een op voorhand opgestelde vragenlijst (\ref{vragen}) maar deze werd eerder gebruikt als ondersteuning. Bij beide interviews was er een open conversatie waarbij de vragen gebruikt werden om het gesprek te beginnen, te veranderen van onderwerp of dieper in te gaan op het huidige onderwerp. Het interview met Faktion XYZ was ter plaatse, hierbij hebben Jef Malfliet en Mout Pessemier beurtelings vragen gesteld. Het interview met Izit BVBA werd telefonisch afgelegd. Hierbij heeft Jef Malfliet het gesprek geleid.
 	
-	Er werd gestart met het uitleggen van de casus. Waarom wordt dit gesprek uitgevoerd, hoe zit de realiteit er uit ten opzichte van wat in de literatuurstudie staat? Nadien werden onze voorbereide vragen gesteld en ingespeeld op het antwoord van de geïnterviewde. Om af te sluiten werd er snel nog eens over alle puntjes gegaan om er zeker van te zijn dat alles goed werd begrepen en nadien werd onze gesprekspartner bedankt voor zijn medewerking.
+	Er werd steeds begonnen met het uitleggen van de casus.  Hierbij werd duidelijk waarom dit gesprek werd gevoerd. Nadien werden de voorbereide vragen gesteld en werd er ingespeeld op het antwoord van de geïnterviewde persoon. Om af te sluiten werden kort alle antwoorden nog eens overlopen om te verzekeren dat alles goed werd begrepen en nadien werd de gesprekspartner bedankt voor zijn medewerking.
 	
-	\section{Experimenten}
-	\subsection{Vragen}
+	\section{Interviews}
+	\subsection{Vragenlijst}
+	\label{vragen}
 	\begin{enumerate}
 		\item Werken jullie met fixed-price contracts?
 		\item Werken jullie agile? Zo ja, hoe en op welke manieren?
@@ -132,46 +131,42 @@
 		\item Zijn er nadelen aan het werken binnen een fixed-price contract die agile niet heeft en zijn er omgekeerd voordelen aan een fixed-price contract die agile niet heeft?
 	\end{enumerate}
 		
-    \subsection{De bedrijven}
-    Het eerste bedrijf waar er een interview is uitgevoerd was Faktion XYZ BVBA, gelegen te Antwerpen. Bij Faction gebruiken ze verschillende methodes van werken. Sommige zijn fixed price, time \& material en nog anderen pakken ze agile aan. Faction zal ons dus een diepe kijk kunnen geven over hoe deze verschillende methodes toegepast worden in het bedrijfsleven.
-    \linebreak
-    \linebreak
-    Het tweede gesprek werd telefonisch uitgevoerd met Izit BVBA te Zele. Ook hier worden verschillende werkwijzen gebruikt en gecombineerd waaronder werken met FPCs en agile.
+    \subsection{Bedrijven}
+    Het eerste bedrijf waar er een interview werd uitgevoerd was Faktion XYZ BVBA, gelegen te Antwerpen. Bij Faction gebruikt men verschillende werkmethodes. Sommige zijn fixed price, time \& material en andere pakt men agile aan. Faction zal dus een diepe kijk kunnen geven over hoe deze verschillende methodes toegepast worden in het bedrijfsleven.
+    
+    Het tweede gesprek werd telefonisch uitgevoerd met Izit BVBA te Zele. Ook zij gebruiken worden verschillende werkwijzen, waaronder werken met FPCs en agile.
     
     \subsection{Gesprek met Faktion XYZ}
-    Bij Faktion werd er gesproken met Laurens Lavaert, de lead developer van de start-up. Zo werd duidelijk dat het verschil in werken tussen FPCs geen verschil uitmaakt voor het development team. Ze werken altijd met deadlines (via milestones) of het nu agile of fixed-price is. Deze milestones gaan als volgt te werk: Tegen datum X wordt een nieuw product verwacht. Als dit een klein project is, is het hele project slechts één milestone. Grote projecten daarentegen worden opgedeeld in meerdere milestones waarbij elke milestone een werkend product oplevert. De eerste milestone levert natuurlijk het minimum viable product (MVP) op.
+    Bij Faktion werd er gesproken met Laurens Lavaert, de lead developer van de start-up. Hij maakt meteen duidelijk dat het werken in FPCs geen verschil uitmaakt voor het development team. Men werkt altijd met deadlines (via milestones) ongeacht of het een FPC is. Deze milestones gaan als volgt te werk: Tegen datum X wordt een nieuw product verwacht. Als dit een klein project is, is het hele project slechts één milestone. Grote projecten daarentegen worden opgedeeld in meerdere milestones waarbij elke milestone een werkend product oplevert. De eerste milestone levert het minimum viable product (MVP) op.
     
-    Het opzetten van zo'n proces gaat als volgt te werk: onderdeel X van bedrijf Y wil product Z. Zij stappen naar Faktion om een (eventueel) FPCs vast te leggen. Dan wordt er onderhandeld met de klant, wordt er een functionele analyse toegepast en de functionele requirements vastgelegd. Deze requirements worden voorgelegd aan het development team. Op basis hiervan wordt dan ingeschat hoeveel tijd en geld dit zal kosten. Hier wordt dan ook al een buffer ingebouwd. Deze projecten worden daarna op een KANBAN manier afgewerkt en opgeleverd. Mocht er toch iets fout lopen en de voorziene tijd en budget wordt overschreven, dan wordt het probleem eerst voorgelegd aan de project manager. Die gaat de klant contacteren om het probleem te melden samen om vervolgens een oplossing te zoeken. Meestal resulteert dit in het bedrijf dat bijbetaald. Eens het project af is wordt het niet onderhouden tenzij dit deel was van het contract, of de klant nieuwe features wil.
+    Het opzetten van zo'n proces gaat als volgt te werk: onderdeel X van bedrijf Y wil product Z. Zij stappen naar Faktion om een (eventueel) FPC vast te leggen. Dan wordt er onderhandeld met de klant, wordt er een functionele analyse toegepast en de functionele requirements vastgelegd. Deze requirements worden voorgelegd aan het development team. Op basis hiervan wordt dan ingeschat hoeveel tijd en geld dit zal kosten. Hier wordt dan ook al een buffer ingebouwd.
     
-    De bedrijven die eerder een fixed-price aangaan zijn grote bedrijven die zeer gestructureerd te werk gaan zoals onder andere Winston en Proximus.
+    Deze projecten worden daarna op een KANBAN manier afgewerkt en opgeleverd. Mocht er toch iets fout lopen en de voorziene tijd en budget wordt overschreven, dan wordt het probleem eerst voorgelegd aan de project manager. Hij zal de klant contacteren om het probleem te melden om vervolgens, samen met de klant, een oplossing te zoeken. Meestal resulteert dit in het bedrijf dat bijbetaald. Eens het project af is wordt het niet onderhouden tenzij dit deel was van het contract, of de klant nieuwe features wenst. De klanten die FPCs hanteren zijn vaak grote bedrijven die zeer gestructureerd te werk gaan, bv. Winston en Proximus.
     
-    De beide werkflows zijn dus zeker combineerbaar volgens Faktion XYZ.
+    Agile werken is voor Faktion XYZ combineerbaar met elk soort contract.
     
     \subsection{Gesprek met IZIT}
-    Via een telefonisch gesprek met de zaakvoerder, Ignace De Coster, kregen werd er inzage verkregen in hoe men bij IZIT BVBA werkt met FPCs. En bijgevolg ook hoe zij dit combineren met agile werken. Uit het gesprek volgde dat hoewel IZIT af en toe met FPCs werkt dit uitzonderlijk met grotere bedrijven is. Dit komt doordat de IT-sector zeer weinig met dit soort contracten werkt volgens IZIT. Het tot stand komen van een FPC verloopt bij hun in meerdere fasen.
+    Via een telefonisch gesprek met de zaakvoerder, Ignace De Coster, werd er inzage verkregen in hoe men bij IZIT BVBA werkt met FPCs. En bijgevolg ook hoe zij dit combineren met agile werken. Uit het gesprek volgde dat hoewel IZIT af en toe met FPCs werkt dit uitzonderlijk met grotere bedrijven is. Dit komt doordat, in hun ervaring, men in de IT-sector zeer weinig met dit soort contracten werkt. Het tot stand komen van een FPC verloopt bij hun in meerdere fasen.
     
-    Er zal eerst een commercieel gesprek met de klant gehouden worden. Hieruit zal een functionele analyse vloeien die onder andere schetsen van het product, een klassendiagram en een databankdiagram zal bevatten. Deze vergemakkelijkt het opstellen van een contract. Het is immens moeilijk om een scope, een kostprijs en een afleverperiode vast te leggen aan de hand van het abstracte idee voor een product. Deze analyse zal deel uitmaken van het FPC dat in overleg zal worden opgesteld. Hierin zal zich ook een SLA (Service Level Agreement) bevinden.
+    Er zal eerst een commercieel gesprek met de klant gehouden worden. Hieruit zal een functionele analyse vloeien die onder andere schetsen van het product, een klassendiagram en databankdiagram zal bevatten. Deze analyse vergemakkelijkt het opstellen van een contract. Het is immens moeilijk om een scope, kostprijs en afleverperiode vast te leggen aan de hand van het abstracte idee van een product. Deze analyse zal deel uitmaken van het FPC dat in overleg tussen IZIT en de klant zal worden opgesteld. Hierin zal zich ook een Service Level Agreement bevinden.
     
-    Als dit basiscontract overeen gekomen is zal dit niet meer worden veranderd. Wel zullen er nog addenda kunnen worden toegevoegd om toch flexibiliteit toe te staan. Op deze manier kunnen de opgelegde limieten bij een FPC verbogen worden. Bij het basiscontract wordt ook steeds een buffer ingecalculeerd voor de opleverdatum. IZIT werkt niet met een precieze datum maar met een opleverperiode. Op deze manier is er een bepaalde speling die kan worden gebruikt. Deze aanpak wordt ook gehandhaafd als er doorheen het project geen aanpassingen voorkomen.
+    Als dit basiscontract overeen gekomen is zal dit niet meer veranderen. Wel zullen er nog addenda kunnen worden toegevoegd om een zekere flexibiliteit toe te staan. Op deze manier kunnen de opgelegde limieten bij een FPC verbogen worden. Bij het basiscontract wordt ook steeds een buffer ingecalculeerd voor de opleverdatum. IZIT werkt niet met een precieze datum maar met een periode van oplevering. Op deze manier is er een bepaalde speling die indien nodig gebruikt kan worden. Deze aanpak wordt ook gehandhaafd als er doorheen het project geen aanpassingen voorkomen.
     
-    FPCs zijn volgens IZIT geen meerwaarde voor klanten die KMO zijn. Dit komt voornamelijk omdat de voortgang van een project binnen IT veel kan verschillen van periode tot periode. Ook weet de klant dat bij FPCs er meer zal worden betaald dan bij een alternatief contract. Dit komt met het voordeel dat men wel zal kunnen budgetteren aangezien de prijs niet zal veranderen. Voor grotere bedrijven is het aanbieden van FPCs voor IZIT wel een kleine voorsprong op de competitie.
+    FPCs zijn volgens IZIT geen meerwaarde voor klanten die KMO zijn. Dit komt voornamelijk omdat de voortgang van een project binnen IT veel kan verschillen van de ene periode tot andere. Ook is een klant er zich van bewust dat bij FPCs men meer zal betalen dan bij een alternatief contract. Dit komt met het voordeel dat men wel zal kunnen budgetteren aangezien de prijs niet zal veranderen. Met als voordeel grotere bedrijven aan te kunnen trekken is het aanbieden van FPCs voor IZIT wel een kleine voorsprong op de competitie.
     
-    De developers werken agile aan de hand van het scrum framework. Men werkt steeds in sprints van 2 weken. Hierbij worden twee parallelle sprints gehouden. Een develop sprint en een debug sprint. Op deze manier worden de oplossingen voor bugs en problemen gescheiden gehouden en bied dit een goed overzicht. Er wordt soms in sprints van een maand gewerkt als de aanpassing aan het product of de toevoeging van een feature te groot is om in 2 weken af te werken. Een sprint zal nooit langer dan een maand duren. 
+    De developers werken agile aan de hand van het scrum framework. Men werkt steeds in sprints van 2 weken. Hierbij worden twee parallelle sprints gehouden, een develop en een debug sprint. Op deze manier worden de oplossingen voor bugs en problemen gescheiden gehouden en bied dit een goed overzicht. Er wordt soms in sprints van een maand gewerkt als de aanpassing aan het product of de toevoeging van een feature te groot is om in 2 weken af te werken. Een sprint zal echter nooit langer dan een maand duren. 
     
-     De combinatie van agile werken binnen een FPC levert voor IZIT geen problemen op. Er wordt geen verschil gemerkt tussen werken onder een FPC of een ander contract. De verklaring die Mr de Coster hiervoor gaf was het feit dat bij andere projecten men ook geen carte blanche krijgt. Men zal steeds attent moeten zijn bij het ontwikkelen van een project, ongeacht het contract. Af en toe zorgen de vaste limieten bij een FCP  voor wat meer stress en onrust. Maar over het algemeen zullen er geen problemen optreden bij het agile werken onder FPC's.
+     De combinatie van agile werken bij een FPC levert binnen IZIT geen problemen op. Er wordt geen verschil gemerkt tussen werken onder een FPC of een ander contract. De verklaring hiervoor was het feit dat bij andere projecten men ook geen carte blanche krijgt. Men zal steeds attent moeten zijn bij het ontwikkelen van een project, ongeacht het contract. Af en toe zorgen de vaste limieten bij een FCP  voor wat meer stress en onrust. Maar over het algemeen zullen er geen problemen optreden bij het agile werken onder FPC's.
     
 	
 	\section{Conclusie}
-	Uit beide gesprekken blijkt dat agile werken wel degelijk te combineren valt met FPCs mits enige nuances wat de literatuur studie tegenspreekt. Beide bedrijven bouwen een soort buffer in voor elk FPC. Deze buffer kan bestaan uit tijd of geld. Doorheen het process wordt er dan op een of andere manier (KANBAN, scrum of nog een andere manier) agile gewerkt om zo proberen tijdig het contract af te werken. Als dit toch niet lukt, dan wordt er in overleg met de klant besproken wat er nog gedaan/kan gedaan worden om het project zo succesvol mogelijk te houden. Meestal komt dit neer op het feit dat de klant bijbetaald om het project af te werken. Voor het development team dat werkt aan het contract maakt het niet uit of ze nu een fixed-price opdracht krijgen of niet. Dezelfde manier van werken wordt gehanteerd. Ook blijkt dat vooral grote bedrijven en overheidsbedrijven FPCs aangaan.
-
+	Eerst en vooral blijkt uit beide gesprekken dat agile werken wel te combineren valt met FPCs, mits enige nuances. Dit spreekt de literatuur studie tegen. Er is dus een duidelijk verschil tussen de theorie en het in praktijk brengen van de combinatie. Beide bedrijven bouwen op voorhand een buffer in bij elk FPC. Deze kan zowel spelling geven voor tijd of geld.
 	
-	%------------------------------------------------------------------------------
-	% Referentielijst
-	%------------------------------------------------------------------------------
-	% TODO: de gerefereerde werken moeten in BibTeX-bestand ``bibliografie.bib''
-	% voorkomen. Gebruik JabRef om je bibliografie bij te houden en vergeet niet
-	% om compatibiliteit met Biber/BibLaTeX aan te zetten (File > Switch to
-	% BibLaTeX mode)
+	Verder zal doorheen het project bij het agile werken van deze buffers gebruik worden gemaakt om het contract tijdig af te werken. Als dit toch niet lukt, dan wordt er in overleg met de klant besproken wat er moet gebeuren om het project toch succesvol af te werken. Dit zal vaak resulteren in de  klant die bijbetaald om het project af te werken.
+	
+	Voor het development team maakt het contract waaronder ze moeten werken niet uit. Dezelfde manier van werken wordt gehanteerd ongeacht het contract dat werd aangegaan.
+	
+	Een laatste conclusie is dat vooral grote bedrijven en overheidsbedrijven FPCs aangaan. Dit is vaak omwille van het voordeel dat men het project kan budgetteren. FPCs aanvaarden als softwareontwikkelaar is dus enkel een voordeel als men ook grotere bedrijven wil aantrekken als klant.
 	
 	\phantomsection
 	\printbibliography[heading=bibintoc]
